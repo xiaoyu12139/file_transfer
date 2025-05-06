@@ -74,3 +74,5 @@ QTimer::singleShot(2000, this, [this]() {
 
 * 客户端发送文件头部信息，服务端接收确认后，存储该文件头部
 * 客户端启动一个线程发送数据，复端接收完数据后调用对应的文件头部确认文件是否完整
+
+![](https://github.com/xiaoyu12139/file_transfer/blob/master/img/file_transfer_show.gif)
